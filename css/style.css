@@ -1,0 +1,157 @@
+@import "/css/root.css";
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url("../font/HelveticaNeueCyr-Medium.ttf");
+}
+
+body {
+    background: #cfe1ff;
+}
+
+/* header */
+
+.navbar {
+    padding: 5px;
+}
+
+nav ul a .kabinet {
+    border: 3px solid #0066CC;
+    border-radius: 50%;
+    padding: 5px 5px;
+
+}
+
+nav ul .nav-item {
+    font-family: HelveticaNeueCyr;
+    color: #1D1D1F;
+    font-size: 14px;
+
+
+}
+
+nav ul li .nav-link {
+    font-family: HelveticaNeueCyr;
+    color: #1D1D1F;
+    font-size: 14px;
+    padding: 0;
+}
+
+nav .navbar-nav .nav-item .lichniy {
+    font-family: HelveticaNeueCyr;
+    color: #0066CC;
+    font-size: 14px;
+
+
+}
+
+nav .navbar-nav .nav-item .lichniy {
+    font-family: HelveticaNeueCyr;
+    color: #0066CC;
+    font-size: 14px;
+
+
+}
+
+nav .navbar-nav .dropdown img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+
+/* speaker */
+#speaker button img {
+    height: auto;
+    margin-top: -3px;
+    width: 5px;
+}
+
+#speaker button {
+    color: #0066CC;
+    padding: 5px 15px;
+    margin: 10px 0;
+    outline: none;
+    font-family: HelveticaNeueCyr;
+    font-size: 16px;
+}
+
+#speaker .card {
+    border-radius: 15px;
+}
+
+#speaker h1 {
+    font-family: HelveticaNeueCyr;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 40px;
+    align-items: center;
+    color: #1D1D1F;
+    margin-top: 30px;
+}
+
+#speaker span {
+    font-family: HelveticaNeueCyr;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #8194B2;
+}
+
+#speaker .speaker-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: 15px 20px;
+}
+
+#speaker .speaker-box img {
+    border-radius: 10px;
+}
+
+#speaker .speaker-title {
+    font-family: HelveticaNeueCyr;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #1D1D1F;
+    margin: 5px 0;
+
+}
+
+#speaker .speaker-name {
+    font-family: HelveticaNeueCyr;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    color: #1D1D1F;
+}
+
+#speaker .speaker-context {
+    font-family: HelveticaNeueCyr;
+    font-style: normal;
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+    color: #8194B2;
+}
+
+/* footer */
+
+footer {
+    background: #1D1D1F;
+}
+
+footer p {
+    color: #8E8E8F;
+    text-align: center;
+    font-family: HelveticaNeueCyr;
+    font-style: roman;
+    font-size: 14px;
+    margin: 10px 0;
+}
